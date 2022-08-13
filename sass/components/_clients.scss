@@ -1,0 +1,28 @@
+.clients-list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-item {
+    width: calc((100% - 150px) / 6);
+}
+
+.clients-link {
+    transition-property: fill, border;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    fill: var(--icon-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
