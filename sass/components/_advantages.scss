@@ -33,10 +33,20 @@
     color: var(--text-color);
 }
 
-.list-item:nth-child(-n + 4) {
-    margin-right: 30px;
+.list-item {
+    &:nth-child(-n + 4) {
+        margin-right: 30px;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+
 }
 
-.list-item:last-child {
-    margin-right: 0;
-}
+// .list-item:nth-child(-n + 4) {
+//     margin-right: 30px;
+// }
+
+// .list-item:last-child {
+//     margin-right: 0;
+// }
