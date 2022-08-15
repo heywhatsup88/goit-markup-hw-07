@@ -1,12 +1,12 @@
-.advantages-list {
+.advantages__list {
     display: flex;
 
-    .advantages-list__item {
+    .advantages__list_item {
         width: 270px;
         }
 }
 
-// .advantages-list .advantages-list__item {
+// .advantages-list .advantages__list_item {
 //     width: 270px;
 // }
 
@@ -36,7 +36,7 @@
     color: var(--text-color);
 }
 
-.advantages-list__item {
+.advantages__list_item {
     &:nth-child(-n + 4) {
         margin-right: 30px;
     }
@@ -46,10 +46,10 @@
 
 }
 
-// .advantages-list__item:nth-child(-n + 4) {
+// .advantages__list_item:nth-child(-n + 4) {
 //     margin-right: 30px;
 // }
 
-// .advantages-list__item:last-child {
+// .advantages__list_item:last-child {
 //     margin-right: 0;
 // }
