@@ -16,39 +16,40 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
+
     <!-- header -->
 
     <header class="header">
       <div class="container page-header">
         <nav class="header-nav">
-          <a href="./index.html" class="logo"
+          <a href="./index.html" class="logo header_nav_logo"
             ><span class="accent">Web</span>Studio</a
           >
 
           <ul class="site-nav">
-            <li class="item">
-              <a href="./index.html" class="nav-link current">Студия</a>
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link site-nav__link_current">Студия</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="nav-link">Портфолио</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
             </li>
-            <li class="item"><a href="" class="nav-link">Контакты</a></li>
+            <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
           </ul>
         </nav>
 
         <ul class="contacts-list">
-          <li class="item">
+          <li class="contacts-list__item">
             <a
               href="mailto:info@devstudio.com"
-              class="contacts-link contact-link-icon"
+              class="contacts-list__link contacts-list__link-icon"
               ><svg class="contact-icon" width="16px" height="12px">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="contacts-link contact-link-icon"
+          <li class="contacts-list__item">
+            <a href="tel:+380961111111" class="contacts-list__link contacts-list__link-icon"
               ><svg class="contact-icon" width="16px" height="12px">
                 <use href="./images/sprite.svg#icon-smartphone"></use>
               </svg>
@@ -60,22 +61,25 @@
     </header>
 
     <main>
+
       <!-- hero -->
 
-      <section class="hero section overlay">
+      <section class="hero section hero-overlay">
         <div class="container">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button" data-modal-open>
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero__button" data-modal-open>
             Заказать услугу
           </button>
         </div>
       </section>
 
+      <!-- advantages -->
+
       <section class="advantages section">
         <div class="container">
-          <h2 class="visually-hidden">Скрытый заголовок</h2>
+          <h2 class="advantages__title_visually-hidden">Скрытый заголовок</h2>
           <ul class="advantages-list">
-            <li class="list-item">
+            <li class="advantages-list__list-item">
               <div class="advantages-icon">
                 <svg width="70" height="70">
                   <use href="./images/sprite.svg#icon-antenna"></use>
@@ -87,7 +91,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li class="list-item">
+            <li class="advantages-list__list-item">
               <div class="advantages-icon">
                 <svg width="70" height="70">
                   <use href="./images/sprite.svg#icon-clock"></use>
@@ -99,7 +103,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="list-item">
+            <li class="advantages-list__list-item">
               <div class="advantages-icon">
                 <svg width="70" height="70">
                   <use href="./images/sprite.svg#icon-diagram"></use>
@@ -111,7 +115,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li class="list-item">
+            <li class="advantages-list__list-item">
               <div class="advantages-icon">
                 <svg class="list-item-icon" width="70" height="70">
                   <use href="./images/sprite.svg#icon-astronaut"></use>
@@ -361,7 +365,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-address">
-          <a href="./index.html" class="logo">
+          <a href="./index.html" class="logo footer_addresss_logo">
             <span class="accent">Web</span><span class="studio">Studio</span>
           </a>
           <address class="address">

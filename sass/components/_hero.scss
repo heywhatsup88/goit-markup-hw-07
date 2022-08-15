@@ -5,7 +5,7 @@
 
 }
 
-.overlay {
+.hero-overlay {
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
@@ -20,7 +20,7 @@
     background-size: cover;
 }
 
-.hero-title {
+.hero__title {
 
     width: 696px;
     margin-left: auto;
@@ -35,8 +35,8 @@
     color: var(--background-color)
 }
 
-.hero .button {
-
+.hero .hero__button {
+    cursor: pointer;
     transition-property: background-color;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
@@ -69,7 +69,18 @@
 //     background-color: #188CE8;
 // }
 
-.button {
+.buttons__button {
+    padding: 6px 22px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: center;
+    background: #f5f4fa;
+    border-radius: 4px;
+    border: rgba(0, 0, 0, 0);
+    
+
     cursor: pointer;
     transition-property: box-shadow, color, background-color;
     transition-duration: var(--transition-duration);

@@ -22,34 +22,42 @@
     <header class="header">
       <div class="container page-header">
         <nav class="header-nav">
-          <a href="./index.html" class="logo"
+          <a href="./index.html" class="logo header_nav_logo"
             ><span class="accent">Web</span>Studio</a
           >
 
           <ul class="site-nav">
-            <li class="item">
-              <a href="./index.html" class="nav-link">Студия</a>
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студия</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="nav-link current">Портфолио</a>
+            <li class="site-nav__item">
+              <a
+                href="./portfolio.html"
+                class="site-nav__link site-nav__link_current"
+                >Портфолио</a
+              >
             </li>
-            <li class="item"><a href="" class="nav-link">Контакты</a></li>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link">Контакты</a>
+            </li>
           </ul>
         </nav>
 
         <ul class="contacts-list">
-          <li class="item">
+          <li class="contacts-list__item">
             <a
               href="mailto:info@devstudio.com"
-              class="contacts-link contact-link-icon"
+              class="contacts-list__link contacts-list__link-icon"
               ><svg class="contact-icon" width="16px" height="12px">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="contacts-link contact-link-icon"
+          <li class="contacts-list__item">
+            <a
+              href="tel:+380961111111"
+              class="contacts-list__link contacts-list__link-icon"
               ><svg class="contact-icon" width="16px" height="12px">
                 <use href="./images/sprite.svg#icon-smartphone"></use>
               </svg>
@@ -63,22 +71,22 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="visually-hidden">Наши проекты</h1>
+          <h1 class="section__title_visually-hidden">Наши проекты</h1>
           <ul class="buttons">
             <li class="list-item">
-              <button type="button" class="button">Все</button>
+              <button type="button" class="buttons__button">Все</button>
             </li>
             <li class="list-item">
-              <button type="button" class="button">Веб-сайты</button>
+              <button type="button" class="buttons__button">Веб-сайты</button>
             </li>
             <li class="list-item">
-              <button type="button" class="button">Приложения</button>
+              <button type="button" class="buttons__button">Приложения</button>
             </li>
             <li class="list-item">
-              <button type="button" class="button">Дизайн</button>
+              <button type="button" class="buttons__button">Дизайн</button>
             </li>
             <li class="list-item">
-              <button type="button" class="button">Маркетинг</button>
+              <button type="button" class="buttons__button">Маркетинг</button>
             </li>
           </ul>
 
