@@ -1,13 +1,13 @@
 :root {
   --primary-text-color: #212121;
-  --background-color: #FFFFFF;
-  --accent-color: #2196F3;
-  --sections-color: #2F303A;
+  --background-color: #ffffff;
+  --accent-color: #2196f3;
+  --sections-color: #2f303a;
   --text-color: #757575;
-  --contacts-link: #FFFFFF60;
-  --icon-color: #AFB1B8;
+  --contacts-link: #ffffff60;
+  --icon-color: #afb1b8;
   --transition-duration: 250ms;
-  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h1,
@@ -85,7 +85,7 @@ body {
 .header {
   padding: 24px 0;
   background-color: var(--background-color);
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 .header .header_nav_logo {
   color: #000000;
@@ -154,7 +154,8 @@ body {
 .site-nav__link {
   color: var(--primary-text-color);
 }
-.site-nav__link:hover, .site-nav__link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -183,7 +184,8 @@ body {
   margin-left: 30px;
 }
 
-.contacts-list__link:hover, .contacts-list__link:focus {
+.contacts-list__link:hover,
+.contacts-list__link:focus {
   color: var(--accent-color);
 }
 
@@ -191,7 +193,8 @@ body {
   margin-right: 10px;
   fill: var(--text-color);
 }
-.contacts-list__link:hover .contact-icon, .contacts-list__link:focus .contact-icon {
+.contacts-list__link:hover .contact-icon,
+.contacts-list__link:focus .contact-icon {
   fill: var(--accent-color);
 }
 
@@ -209,7 +212,7 @@ body {
   justify-content: center;
   margin-bottom: 50px;
 }
-.buttons .list-item:nth-child(-n+5) {
+.buttons .list-item:nth-child(-n + 5) {
   margin-right: 10px;
 }
 .buttons .list-item:last-child {
@@ -223,12 +226,14 @@ body {
   font-size: 16px;
   line-height: 1.65;
   text-align: center;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
   border: transparent;
 }
-.buttons .button:hover, .buttons .button:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.buttons .button:hover,
+.buttons .button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -243,8 +248,13 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #C4C4C4;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img.jpg);
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -279,8 +289,9 @@ body {
   font-size: 16px;
   line-height: 1.85;
 }
-.hero .hero__button:hover, .hero .hero__button:focus {
-  background-color: #188CE8;
+.hero .hero__button:hover,
+.hero .hero__button:focus {
+  background-color: #188ce8;
 }
 
 .buttons__button {
@@ -298,7 +309,8 @@ body {
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
 }
-.buttons__button:hover, .buttons__button:focus {
+.buttons__button:hover,
+.buttons__button:focus {
   color: var(--background-color);
   background-color: var(--accent-color);
 }
@@ -316,7 +328,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 120px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .advantages__title {
@@ -336,7 +348,7 @@ body {
   color: var(--text-color);
 }
 
-.advantages__list_item:nth-child(-n+4) {
+.advantages__list_item:nth-child(-n + 4) {
   margin-right: 30px;
 }
 .advantages__list_item:last-child {
@@ -421,24 +433,27 @@ body {
   border-radius: 50%;
   background-color: var(--background-color);
 }
-.social-list-link:hover, .social-list-link:focus {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: var(--accent-color);
 }
 
 .social-list-icon {
   fill: var(--icon-color);
 }
-.social-list-link:hover .social-list-icon, .social-list-link:focus .social-list-icon {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
   fill: var(--background-color);
 }
 
 .team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team__list > .team__list-item {
   background-color: var(--background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -447,7 +462,7 @@ body {
   align-content: center;
 }
 
-.team__list-item:nth-child(-n+4) {
+.team__list-item:nth-child(-n + 4) {
   margin-right: 30px;
 }
 .team__list-item:last-child {
@@ -484,7 +499,8 @@ body {
   fill: var(--icon-color);
 }
 
-.clients-link:hover, .clients-link:focus {
+.clients-link:hover,
+.clients-link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -528,7 +544,8 @@ body {
   color: var(--contacts-link);
 }
 
-.footer .contacts-link:hover, .footer .contacts-link:focus {
+.footer .contacts-link:hover,
+.footer .contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -572,7 +589,8 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social-link:hover, .footer-social-link:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background: var(--accent-color);
 }
 
@@ -635,8 +653,9 @@ body {
   align-items: center;
 }
 
-.footer-button:hover, .footer-button:focus {
-  background-color: #188CE8;
+.footer-button:hover,
+.footer-button:focus {
+  background-color: #188ce8;
 }
 
 .address {
@@ -658,7 +677,9 @@ body {
   width: 100%;
   height: 100%;
   z-index: 2;
-  transition: opacity var(--transition-duration) var(--transition-timing-function), visibility var(--transition-duration) var(--transition-timing-function);
+  transition: opacity var(--transition-duration)
+      var(--transition-timing-function),
+    visibility var(--transition-duration) var(--transition-timing-function);
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -670,7 +691,8 @@ body {
   transform: translate(-50%, -50%) scale(1);
   width: 528px;
   background: var(--background-color);
-  transition: transform var(--transition-duration) var(--transition-timing-function);
+  transition: transform var(--transition-duration)
+    var(--transition-timing-function);
 }
 
 .backdrop.is-hidden {
@@ -720,7 +742,8 @@ body {
   width: 100%;
   height: 40px;
   padding-left: 42px;
-  transition: border var(--transition-duration) var(--transition-timing-function);
+  transition: border var(--transition-duration)
+    var(--transition-timing-function);
 }
 .modal-form-input:focus {
   outline: none;
@@ -846,8 +869,9 @@ body {
   letter-spacing: 0.06em;
 }
 
-.modal-form-submit:hover, .modal-form-submit:focus {
-  background-color: #188CE8;
+.modal-form-submit:hover,
+.modal-form-submit:focus {
+  background-color: #188ce8;
 }
 
 .projects-list {
@@ -877,8 +901,10 @@ body {
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
 }
-.projects-link:hover, .projects-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.projects-link:hover,
+.projects-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-card-wrapper {
@@ -891,7 +917,8 @@ body {
   left: 0;
   top: 0;
   transform: translate(0, 100%);
-  transition: transform var(--transition-duration) var(--transition-timing-function);
+  transition: transform var(--transition-duration)
+    var(--transition-timing-function);
   width: 100%;
   height: 100%;
   padding: 63px 24px;
@@ -902,7 +929,8 @@ body {
   color: var(--background-color);
   background-color: rgba(33, 150, 243, 0.9);
 }
-.projects-link:hover .card-overlay, .projects-link:focus .card-overlay {
+.projects-link:hover .card-overlay,
+.projects-link:focus .card-overlay {
   transform: translate(0, 0);
 }
 
@@ -916,4 +944,4 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
