@@ -1,5 +1,6 @@
 @import "./sass/base/common";
 @import "./base/reset";
+@import "./utils/variables";
 @import "./components/container";
 @import "./components/section";
 @import "./components/visually-hidden";
@@ -12,4 +13,3 @@
 @import "./layout/modal-form";
 @import "./layout/projects";
 @import "./layout/team";
-@import "./utils/variables";

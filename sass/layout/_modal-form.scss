@@ -137,16 +137,6 @@
   transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
-// .modal-form-input:focus {
-//     outline: none;
-//     border-color: var(--accent-color);
-
-// }
-
-// .modal-form-input:focus+.modal-form-input-icon {
-//     fill: var(--accent-color);
-// }
-
 .modal-form-message {
   display: block;
   resize: none;
@@ -160,18 +150,6 @@
     transition: var(--transition-duration) var(--transition-timing-function);
   }
 }
-
-// .modal-form-message:focus {
-//     border-color: var(--accent-color);
-//     transition: var(--transition-duration) var(--transition-timing-function)
-// }
-
-// .modal-form-message::placeholder {
-//     font-size: 12px;
-//     line-height: 14px;
-//     letter-spacing: 0.01em;
-//     color: rgba(117, 117, 117, 0.5);
-// }
 
 .user-policy-link {
   color: var(--accent-color);
@@ -237,8 +215,3 @@
     background-color: #188ce8;
   }
 }
-
-// .modal-form-submit:hover,
-// .modal-form-submit:focus {
-//     background-color: #188CE8;
-// }
